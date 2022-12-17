@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10vh;
 }
 
 .card {
@@ -87,7 +88,7 @@
 }
 
 .heading2 {
-  font-size: 1em;
+  font-size: 2em;
   margin-right: auto;
 }
 
@@ -100,4 +101,17 @@
   border-style: solid;
   border-radius: 1em;
   margin-left: 50vw;
+}
+
+.appointmentList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 5vw;
+  flex-wrap: wrap;
+}
+
+.colorTheButton {
+  background-color: #9897f0;
+  color: #ffffff;
 }
