@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.bg {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 80vw;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 2em;
+  padding: 5vh;
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  margin-right: 10vw;
+  margin-left: 2vw;
+}
+
+.heading {
+  color: #171f46;
+  font-size: 2em;
+  font-family: Roboto;
+}
+
+.formElement {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  width: 5em;
+  height: 2em;
+  font-size: 1em;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 10vw;
+  margin-right: 2vw;
+}
+
+.image1 {
+  height: 40vh;
+}
+
+.line {
+  font-size: 5px;
+  color: black;
+}
+
+.bottomContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2vw;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.heading2 {
+  font-size: 1em;
+  margin-right: auto;
+}
+
+.button2 {
+  background-color: transparent;
+  height: 2em;
+  width: 6em;
+  border-color: #b5b7c4;
+  color: #b5b7c4;
+  border-style: solid;
+  border-radius: 1em;
+  margin-left: 50vw;
+}
