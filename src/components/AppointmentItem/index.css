@@ -1,8 +1,37 @@
 /* Write your CSS here */
-.item{
-    border:solid 2px #b5b7c4
-    border-radius:2em;
-    height:15vh;
-    width:25vw;
-    margin:2vw;
+.item {
+  border: solid 2px #b5b7c4;
+  border-radius: 1em;
+  height: 25vh;
+  width: 25vw;
+  margin: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: Roboto;
+  padding: 2vw;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  color: #171f46;
+  font-size: 1.25em;
+}
+
+.date {
+  font-size: 1em;
+  color: #b5b7c4;
+}
+
+.star {
+  margin-left: 8vw;
+}
+
+.starButton {
+  background-color: transparent;
+  border: none;
 }
